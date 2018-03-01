@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: url(e9137a57d4fb1b02417eac246db7110f.jpg);
+}
+.App h1{
+  color: #fff;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  padding-top: 40px;
+  font-size: 3.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.form-wrapper{
+  width: 300px;
+  margin: 220px auto;
+}
+.login-form {
+  max-width: 300px;
+}
+.ant-form label{
+  float: left;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
